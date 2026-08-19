@@ -2,7 +2,7 @@
 
 Personal Pi coding-agent config from this machine (`~/.pi/agent`).
 
-Private on purpose: it encodes model routing, MCP, and local extensions. It does **not** contain API keys, OAuth tokens, or session transcripts.
+Public config only: model routing, MCP, and local extensions. It does **not** contain API keys, OAuth tokens, or session transcripts.
 
 ## What's in here
 
