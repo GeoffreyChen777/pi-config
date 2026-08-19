@@ -1,0 +1,9 @@
+{
+  "sandboxMode": "full-access",
+  "approvalPolicy": "on-request",
+  "approveForMe": {
+    "provider": "mvp-openai",
+    "model": "codex-auto-review",
+    "timeoutMs": 30000
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "providers": {
+    "deepseek-responses": {
+      "name": "DeepSeek Responses",
+      "baseUrl": "https://api.deepseek.com",
+      "api": "openai-responses",
+      "models": [
+        {
+          "id": "deepseek-v4-flash",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          }
+        },
+        {
+          "id": "deepseek-v4-pro",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          }
+        }
+      ]
+    },
+    "mvp-openai": {
+      "name": "MVPLab OpenAI Responses",
+      "baseUrl": "https://model-api.mvp-lab.ai/v1",
+      "api": "openai-responses",
+      "apiKey": "$MVP_LAB_MODEL_API_KEY",
+      "models": [
+        {
+          "id": "gpt-5.6-sol",
+          "name": "GPT-5.6 Sol",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "compat": {
+            "supportsOpenAIGrammarTools": true
+          }
+        },
+        {
+          "id": "gpt-5.6-luna",
+          "name": "GPT-5.6 Luna",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "compat": {
+            "supportsOpenAIGrammarTools": true
+          }
+        },
+        {
+          "id": "gpt-5.6-terra",
+          "name": "GPT-5.6 Terra",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "compat": {
+            "supportsOpenAIGrammarTools": true
+          }
+        },
+        {
+          "id": "gpt-5.5",
+          "name": "GPT-5.5",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": "none",
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh"
+          }
+        },
+        {
+          "id": "gpt-5.4",
+          "name": "GPT-5.4",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": "none",
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh"
+          }
+        },
+        {
+          "id": "gpt-5.4-mini",
+          "name": "GPT-5.4 Mini",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": "none",
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh"
+          }
+        },
+        {
+          "id": "gpt-5.3-codex-spark",
+          "name": "GPT-5.3 Codex Spark",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 128000,
+          "maxTokens": 32000,
+          "thinkingLevelMap": {
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh"
+          }
+        },
+        {
+          "id": "grok-4.5",
+          "name": "Grok 4.5",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 500000,
+          "maxTokens": 500000,
+          "thinkingLevelMap": {
+            "low": "low",
+            "medium": "medium",
+            "high": "high"
+          }
+        },
+        {
+          "id": "codex-auto-review",
+          "name": "Codex Auto Review",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "grok-4.6",
+          "name": "Grok 4.6",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 500000,
+          "maxTokens": 500000,
+          "thinkingLevelMap": {
+            "low": "low",
+            "medium": "medium",
+            "high": "high"
+          }
+        }
+      ]
+    },
+    "mvp-anthropic": {
+      "name": "MVP Anthropic Messages",
+      "baseUrl": "https://model-api.mvp-lab.ai",
+      "api": "anthropic-messages",
+      "apiKey": "$MVP_LAB_MODEL_API_KEY",
+      "models": [
+        {
+          "id": "kimi-k3",
+          "name": "Kimi K3 (Anthropic)",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "thinkingLevelMap": {
+            "off": null,
+            "low": "low",
+            "high": "high",
+            "max": "max"
+          },
+          "compat": {
+            "forceAdaptiveThinking": true
+          }
+        },
+        {
+          "id": "glm-5.2",
+          "name": "GLM-5.2",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "high": "high",
+            "max": "max"
+          },
+          "compat": {
+            "forceAdaptiveThinking": true
+          }
+        },
+        {
+          "id": "glm-5.3",
+          "name": "GLM-5.3",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "high": "high",
+            "max": "max"
+          },
+          "compat": {
+            "forceAdaptiveThinking": true
+          }
+        }
+      ]
+    },
+    "opencode-go-responses": {
+      "name": "OpenCode Zen Go (Responses)",
+      "baseUrl": "https://opencode.ai/zen/go/v1",
+      "api": "openai-responses",
+      "models": [
+        {
+          "id": "deepseek-v4-flash",
+          "name": "DeepSeek V4 Flash",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "cost": {
+            "input": 0.14,
+            "output": 0.28,
+            "cacheRead": 0.0028,
+            "cacheWrite": 0
+          }
+        },
+        {
+          "id": "deepseek-v4-pro",
+          "name": "DeepSeek V4 Pro",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "thinkingLevelMap": {
+            "off": "none",
+            "minimal": "minimal",
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "cost": {
+            "input": 0.435,
+            "output": 0.87,
+            "cacheRead": 0.003625,
+            "cacheWrite": 0
+          }
+        }
+      ]
+    }
+  }
+}

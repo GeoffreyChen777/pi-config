@@ -1,0 +1,13 @@
+# Never commit live credentials or local caches
+agent/auth.json
+**/.DS_Store
+**/node_modules/
+**/.git/
+sessions/
+npm/
+mcp-cache.json
+models-store.json
+permission-control-audit.jsonl
+*.jsonl
+.env
+.env.*

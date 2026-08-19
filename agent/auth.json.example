@@ -1,0 +1,18 @@
+{
+ "deepseek": {
+  "type": "api_key",
+  "key": "$DEEPSEEK_API_KEY"
+ },
+ "deepseek-responses": {
+  "type": "api_key",
+  "key": "$DEEPSEEK_RESPONSES_API_KEY"
+ },
+ "opencode-go": {
+  "type": "api_key",
+  "key": "$OPENCODE_GO_API_KEY"
+ },
+ "opencode-go-responses": {
+  "type": "api_key",
+  "key": "$OPENCODE_GO_RESPONSES_API_KEY"
+ }
+}

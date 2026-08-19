@@ -1,0 +1,32 @@
+{
+  "lastChangelogVersion": "0.84.1",
+  "theme": "dark",
+  "defaultProvider": "mvp-openai",
+  "defaultModel": "grok-4.6",
+  "defaultThinkingLevel": "high",
+  "packages": [
+    "npm:pi-web-search",
+    "npm:@lll9p/pi-better-compaction",
+    "npm:pi-codex-tools",
+    "npm:@narumitw/pi-goal",
+    "npm:@tunnckocore/pi-gpt-fast-mode",
+    "npm:pi-mcp-adapter"
+  ],
+  "enabledModels": [
+    "mvp-openai/gpt-5.6-sol",
+    "mvp-openai/gpt-5.6-luna",
+    "mvp-openai/gpt-5.6-terra",
+    "mvp-openai/grok-4.5",
+    "mvp-openai/grok-4.6",
+    "mvp-anthropic/kimi-k3",
+    "mvp-anthropic/glm-5.2",
+    "opencode-go-responses/deepseek-v4-flash",
+    "mvp-anthropic/glm-5.3"
+  ],
+  "hideThinkingBlock": true,
+  "editorPaddingX": 1,
+  "tuiMode": "fullscreen",
+  "extensions": [
+    "-extensions/permission-control/index.ts"
+  ]
+}
