@@ -9,6 +9,16 @@
         "redirectUri": "http://localhost:8976/callback"
       },
       "directTools": true
+    },
+    "mvp-lab-wiki": {
+      "url": "https://wiki-mcp.mvp-lab.ai/mcp",
+      "auth": "oauth",
+      "oauth": {
+        "clientId": "huu2glqxj2bf4v6ntkyb7",
+        "scope": "read:vault write:vault offline_access",
+        "redirectUri": "http://localhost:8976/callback"
+      },
+      "directTools": true
     }
   }
 }

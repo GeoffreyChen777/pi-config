@@ -1,5 +1,7 @@
 # Never commit live credentials or local caches
 agent/auth.json
+agent/extensions/
+agent/compact-mode.json
 **/.DS_Store
 **/node_modules/
 **/.git/

@@ -57,7 +57,7 @@
             "text",
             "image"
           ],
-          "contextWindow": 272000,
+          "contextWindow": 500000,
           "maxTokens": 128000,
           "thinkingLevelMap": {
             "off": "none",
@@ -80,7 +80,7 @@
             "text",
             "image"
           ],
-          "contextWindow": 272000,
+          "contextWindow": 500000,
           "maxTokens": 128000,
           "thinkingLevelMap": {
             "off": "none",
@@ -103,7 +103,7 @@
             "text",
             "image"
           ],
-          "contextWindow": 272000,
+          "contextWindow": 500000,
           "maxTokens": 128000,
           "thinkingLevelMap": {
             "off": "none",
@@ -126,7 +126,7 @@
             "text",
             "image"
           ],
-          "contextWindow": 272000,
+          "contextWindow": 500000,
           "maxTokens": 128000,
           "thinkingLevelMap": {
             "off": "none",
@@ -145,7 +145,7 @@
             "text",
             "image"
           ],
-          "contextWindow": 272000,
+          "contextWindow": 500000,
           "maxTokens": 128000,
           "thinkingLevelMap": {
             "off": "none",
@@ -164,7 +164,7 @@
             "text",
             "image"
           ],
-          "contextWindow": 272000,
+          "contextWindow": 500000,
           "maxTokens": 128000,
           "thinkingLevelMap": {
             "off": "none",
@@ -183,7 +183,7 @@
             "text",
             "image"
           ],
-          "contextWindow": 128000,
+          "contextWindow": 500000,
           "maxTokens": 32000,
           "thinkingLevelMap": {
             "low": "low",

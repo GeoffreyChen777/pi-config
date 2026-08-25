@@ -1,8 +1,0 @@
-{
-  "name": "subagents",
-  "version": "0.0.1",
-  "description": "Custom subagents extension: orchestrator + planner / reviewer / actor",
-  "pi": {
-    "extensions": ["./index.ts"]
-  }
-}

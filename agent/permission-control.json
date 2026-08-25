@@ -1,9 +1,58 @@
 {
-  "sandboxMode": "full-access",
-  "approvalPolicy": "on-request",
-  "approveForMe": {
+  "enabled": true,
+  "profiles": {
+    "full": {
+      "read": "allow",
+      "write": "allow"
+    },
+    "guarded-read": {
+      "read": "elevate",
+      "write": "elevate"
+    },
+    "confirm": {
+      "read": "elevate",
+      "write": "elevate"
+    }
+  },
+  "activeMode": "standard",
+  "modes": {
+    "standard": {
+      "workspace": "full",
+      "external": "guarded-read",
+      "sensitive": "confirm"
+    },
+    "trusted": {
+      "workspace": "full",
+      "external": "full",
+      "sensitive": "full"
+    }
+  },
+  "zones": {
+    "workspace": {
+      "profile": "full",
+      "extraRoots": []
+    },
+    "external": {
+      "profile": "guarded-read"
+    },
+    "sensitive": {
+      "profile": "confirm",
+      "paths": []
+    }
+  },
+  "runtime": {
+    "sandboxBash": true,
+    "requireLandstrip": true,
+    "network": true
+  },
+  "judge": {
+    "enabled": true,
     "provider": "mvp-openai",
     "model": "codex-auto-review",
-    "timeoutMs": 30000
+    "timeoutMs": 30000,
+    "minimumConfidence": 0.75
+  },
+  "audit": {
+    "enabled": true
   }
 }
