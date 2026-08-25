@@ -63,7 +63,7 @@ cd ~/Developer/pi-config
 The installer:
 
 1. Copies the public configuration into `${PI_CODING_AGENT_DIR:-~/.pi/agent}`.
-2. Removes stale local extensions.
+2. Removes stale local extensions and legacy agent definitions.
 3. Installs the package versions declared in `agent/npm-package.json`.
 4. Preserves an existing `auth.json`.
 

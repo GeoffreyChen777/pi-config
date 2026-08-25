@@ -18,10 +18,11 @@ copy_file "$ROOT/agent/mcp.json" "$DEST/mcp.json"
 copy_file "$ROOT/agent/compact-ui.json" "$DEST/compact-ui.json"
 copy_file "$ROOT/agent/permission-control.json" "$DEST/permission-control.json"
 
-# This setup is npm-only. Remove stale local extensions from older versions of
-# the configuration repository.
-rm -rf "$DEST/extensions"
-mkdir -p "$DEST/extensions"
+# This setup is npm-only. Remove stale local extension and agent definitions
+# from older versions of the configuration.
+rm -rf "$DEST/extensions" "$DEST/extensions.disabled" "$DEST/agents"
+rm -f "$DEST/compact-mode.json"
+mkdir -p "$DEST/extensions" "$DEST/extensions.disabled"
 
 if [[ ! -f "$DEST/auth.json" ]]; then
   copy_file "$ROOT/agent/auth.json.example" "$DEST/auth.json"
