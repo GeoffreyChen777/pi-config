@@ -14,7 +14,7 @@
       "write": "elevate"
     }
   },
-  "activeMode": "standard",
+  "activeMode": "trusted",
   "modes": {
     "standard": {
       "workspace": "full",

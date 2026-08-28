@@ -11,6 +11,10 @@ cp "$SRC/models.json" "$ROOT/agent/models.json"
 cp "$SRC/mcp.json" "$ROOT/agent/mcp.json"
 cp "$SRC/compact-ui.json" "$ROOT/agent/compact-ui.json"
 cp "$SRC/permission-control.json" "$ROOT/agent/permission-control.json"
+if [[ -d "$SRC/extension-settings" ]]; then
+  mkdir -p "$ROOT/agent/extension-settings"
+  cp "$SRC/extension-settings"/*.json "$ROOT/agent/extension-settings/" 2>/dev/null || true
+fi
 if [[ -f "$SRC/npm/package.json" ]]; then
   node - "$SRC/npm" "$ROOT/agent/npm-package.json" <<'NODE'
 const fs = require("node:fs");

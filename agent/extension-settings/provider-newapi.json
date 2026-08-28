@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "providers": {
+    "mvp-lab": {
+      "baseUrl": "https://model-api.mvp-lab.ai",
+      "modelApiOverrides": {}
+    }
+  },
+  "settings": {
+    "onboardingWarnCountdown": 2
+  }
+}
