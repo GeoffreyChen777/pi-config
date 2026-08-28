@@ -1,8 +1,8 @@
 {
   "lastChangelogVersion": "0.84.3",
   "theme": "dark",
-  "defaultProvider": "opencode-go",
-  "defaultModel": "deepseek-v4-flash",
+  "defaultProvider": "mvp-lab",
+  "defaultModel": "mvp-lab/deepseek-v4-flash-0731",
   "defaultThinkingLevel": "high",
   "packages": [
     "npm:pi-web-search",
